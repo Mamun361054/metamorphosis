@@ -11,8 +11,7 @@ class HeadlessInAppWebViewScreen extends StatefulWidget {
       HeadlessInAppWebViewScreenState();
 }
 
-class HeadlessInAppWebViewScreenState
-    extends State<HeadlessInAppWebViewScreen> {
+class HeadlessInAppWebViewScreenState extends State<HeadlessInAppWebViewScreen> {
   final GlobalKey webViewKey = GlobalKey();
 
   InAppWebViewController? webViewController;
